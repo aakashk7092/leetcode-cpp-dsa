@@ -34,30 +34,17 @@ Return the **maximum water** that the container can store.
 **Input**
 height = [1,8,6,2,5,4,8,3,7]
 
-markdown
-Copy code
-
 **Output**
 49
-
-markdown
-Copy code
 
 **Explanation**  
 The container formed by lines at index `1` and `8` holds the maximum water:
 min(8, 7) × (8 − 1) = 7 × 7 = 49
 
-yaml
-Copy code
-
----
-
 ## Constraints
 
 - `2 ≤ n ≤ 10^5`
 - `0 ≤ height[i] ≤ 10^4`
-
----
 
 ## Approach
 
@@ -66,13 +53,11 @@ Copy code
 - Calculate the area using:
 area = min(height[left], height[right]) × (right − left)
 
-yaml
-Copy code
+
 - Move the pointer pointing to the **smaller height**, since moving the taller one cannot increase the area
 
 This ensures an optimal solution in linear time.
 
----
 
 ## Time and Space Complexity
 
