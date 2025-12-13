@@ -31,30 +31,18 @@ If there is no common prefix, return an **empty string** `""`.
 **Input**
 strs = ["flower","flow","flight"]
 
-markdown
-Copy code
-
 **Output**
 "fl"
 
-yaml
-Copy code
-
----
 
 ## Example 2
 
 **Input**
 strs = ["dog","racecar","car"]
 
-markdown
-Copy code
 
 **Output**
 ""
-
-yaml
-Copy code
 
 **Explanation**  
 There is no common prefix among the input strings.
