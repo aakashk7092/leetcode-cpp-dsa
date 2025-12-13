@@ -11,6 +11,7 @@ This repository contains my LeetCode problem solutions written in C++ and organi
 - Graph
 - Dynamic Programming
 - Greedy
+- Daily Challenge
 
 ## Language
 - C++
