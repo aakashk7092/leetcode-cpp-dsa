@@ -40,40 +40,23 @@ Copy code
 **Output**
 [[-1,-1,2],[-1,0,1]]
 
-yaml
-Copy code
-
 ---
 
 ## Example 2
 
 **Input**
 nums = [0,1,1]
-
-markdown
-Copy code
-
 **Output**
 []
-
-yaml
-Copy code
-
----
 
 ## Example 3
 
 **Input**
 nums = [0,0,0]
 
-markdown
-Copy code
 
 **Output**
 [[0,0,0]]
-
-yaml
-Copy code
 
 ---
 
