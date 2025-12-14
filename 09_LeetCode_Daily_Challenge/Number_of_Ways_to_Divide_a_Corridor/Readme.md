@@ -75,7 +75,7 @@ This works because each plant gap provides an independent choice for placing div
 ## Time and Space Complexity
 
 - **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+- **Space Complexity:** O(n)
 
 ---
 
