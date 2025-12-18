@@ -26,5 +26,5 @@ Convert a string into a **32-bit signed integer** following `atoi` rules: ignore
 
 ## Complexity
 
-* **Time:** `O(n)`
-* **Space:** `O(1)`
+* **Time:** `O(n)
+* **Space:** `O(1)
