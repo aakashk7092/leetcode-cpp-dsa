@@ -6,10 +6,16 @@ Note: This question is the same as 1991: https://leetcode.com/problems/find-the-
 ---
 ## Approach of problem
 -> Find sum of all element sum (O(n))
--> take leftSum = 0 , 
+----
+-> take leftSum = 0 ,
+---
 -> traversing array find rightSum = sum - leftSum - nums[i]
+---
 ->if leftSum == rightSum  return index
+---
 -> update leftSum += nums[i]
+---
 
 **Time complexity** - **O(n)**
+---
 **Space Complexity** - **O(1)** used only result array
