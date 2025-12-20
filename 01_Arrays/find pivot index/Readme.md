@@ -1,21 +1,36 @@
-# Easy | 724 | Find Pivot Index 
----
-# Problem statement:-
-<img width="1568" height="696" alt="image" src="https://github.com/user-attachments/assets/f56ef42d-7414-4c06-9b72-ecddefcea2bd" />
-Note: This question is the same as 1991: https://leetcode.com/problems/find-the-middle-index-in-array/
----
-## Approach of problem
--> Find sum of all element sum (O(n))
-----
--> take leftSum = 0 ,
----
--> traversing array find rightSum = sum - leftSum - nums[i]
----
-->if leftSum == rightSum  return index
----
--> update leftSum += nums[i]
+# Find Pivot Index (LeetCode)
+
+**Difficulty:** Easy
+**Problem No.:** 724
+**Note:** This problem is equivalent to **LeetCode 1991 – Find the Middle Index in Array**.
+
 ---
 
-**Time complexity** - **O(n)**
+## Problem
+
+Given an array of integers, find the **pivot index** where the sum of elements to the left is equal to the sum of elements to the right. If no such index exists, return `-1`.
+
 ---
-**Space Complexity** - **O(1)** used only result array
+
+## Approach
+
+* Compute the **total sum** of the array.
+* Initialize `leftSum = 0`.
+* Traverse the array:
+
+  * Calculate `rightSum = totalSum - leftSum - nums[i]`.
+  * If `leftSum == rightSum`, return the current index.
+  * Update `leftSum += nums[i]`.
+
+---
+
+## Complexity
+
+* **Time Complexity:** `O(n)`
+* **Space Complexity:** `O(1)`
+
+---
+
+## Key Takeaway
+
+Using prefix sums allows checking the pivot condition in a single pass without extra space.
