@@ -1,8 +1,13 @@
 # Swap Nodes in Pairs (LeetCode – 24)
 
 <p align="center">
-  <img src="cover.png" alt="Swap Nodes in Pairs Cover" width="100%">
+  <img src="images/cover.png" width="100%">
 </p>
+
+<p align="center">
+  <img src="images/swap_nodes_diagram.png" width="90%">
+</p>
+
 
 ---
 
@@ -29,8 +34,13 @@ A **dummy node** is used to:
 ## Visual Explanation
 
 <p align="center">
-  <img src="swap_nodes_diagram.png" alt="Swap Nodes in Pairs Diagram" width="90%">
+  <img src="images/cover.png" width="100%">
 </p>
+
+<p align="center">
+  <img src="images/swap_nodes_diagram.png" width="90%">
+</p>
+
 
 ### Example
 **Input**
