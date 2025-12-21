@@ -1,11 +1,7 @@
 # Swap Nodes in Pairs (LeetCode – 24)
 
 <p align="center">
-  <img src="images/cover.png" width="100%">
-</p>
-
-<p align="center">
-  <img src="images/swap_nodes_diagram.png" width="90%">
+  <img src="https://raw.githubusercontent.com/USERNAME/REPO_NAME/main/cover.png" width="100%">
 </p>
 
 
