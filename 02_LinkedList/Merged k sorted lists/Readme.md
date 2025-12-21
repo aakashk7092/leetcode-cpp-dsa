@@ -6,13 +6,13 @@ LeetCode #23 | Hard | Linked List | Divide and Conquer
 --
 # Why This Approach is Optimal
 
-Reduces total comparisons
+**Reduces total comparisons**
 
-Avoids repeated merging of large lists
+**Avoids repeated merging of large lists**
 
-Leverages the fact that each list is already sorted
+**Leverages the fact that each list is already sorted**
 
-Scales well even when k is large
+**Scales well even when k is large**
 
 # Complexity Analysis and what we learn from Problem
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/706048b0-357b-44f8-b11d-18e5f7540a6d" />
@@ -20,13 +20,13 @@ Scales well even when k is large
 
 # Edge Cases Considered
 
-No lists provided (lists = [])
+**No lists provided (lists = [])**
 
-Lists containing empty lists ([[]])
+**Lists containing empty lists ([[]])**
 
-Single linked list
+**Single linked list**
 
-Lists with negative values
+**Lists with negative values**
 
-Uneven list sizes
+**Uneven list sizes**
 
