@@ -14,16 +14,9 @@ Leverages the fact that each list is already sorted
 
 Scales well even when k is large
 
-# Complexity Analysis
-Metric	Value
-Time Complexity	O(N log K)
-Space Complexity	O(log K) (recursive stack)
+# Complexity Analysis and what we learn from Problem
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/706048b0-357b-44f8-b11d-18e5f7540a6d" />
 
-Where:
-
-N = total number of nodes across all lists
-
-K = number of linked lists
 
 # Edge Cases Considered
 
@@ -37,12 +30,3 @@ Lists with negative values
 
 Uneven list sizes
 
-# What This Problem Teaches
-
-Applying Divide and Conquer beyond arrays
-
-Efficient merging of multiple sorted structures
-
-Writing scalable recursive solutions
-
-Handling complex edge cases cleanly
