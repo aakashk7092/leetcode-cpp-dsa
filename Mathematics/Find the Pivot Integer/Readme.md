@@ -17,7 +17,8 @@ n = 8
 **Output**
 6
 --
-  <img width="900" height="700" alt="image" src="https://github.com/user-attachments/assets/d3f806f9-64cc-4d03-a314-91b27f4f30ab" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/f1afaa2e-d4a0-4cda-970c-218a63752a60" />
+
 ---
 
 ## Complexity
