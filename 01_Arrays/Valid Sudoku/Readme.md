@@ -17,6 +17,7 @@ Note: The board does **not** need to be completely filled to be valid.
 ## Example
 
 <img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/122cbaca-b332-4869-89b7-c2b9fc14ff20" />
+---
 Input: board = 
 [["5","3",".",".","7",".",".",".","."]
 ,["6",".",".","1","9","5",".",".","."]
@@ -27,6 +28,7 @@ Input: board =
 ,[".","6",".",".",".",".","2","8","."]
 ,[".",".",".","4","1","9",".",".","5"]
 ,[".",".",".",".","8",".",".","7","9"]]
+---
 Output: true
 
 ---
