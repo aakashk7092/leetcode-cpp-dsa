@@ -16,12 +16,18 @@ A **3 × 3 magic square** must satisfy all of the following conditions:
 
 ## Example
 
--- <img width="322" height="242" alt="image" src="https://github.com/user-attachments/assets/7779a28e-c84a-45bd-a19a-d5c554dad91e" /> --
-**Input: grid = [[4,3,8,4],[9,5,1,9],[2,7,6,2]]**
-**Output: 1**
-**Explanation: **
-**The following subgrid is a 3 x 3 magic square:**
--- <img width="242" height="242" alt="image" src="https://github.com/user-attachments/assets/fcba7f78-a1c4-46b5-976f-62b9cb7ca8bb" /> --
+<img width="322" height="242" alt="input-grid" src="https://github.com/user-attachments/assets/7779a28e-c84a-45bd-a19a-d5c554dad91e" />
+
+**Input:**  
+`grid = [[4,3,8,4],[9,5,1,9],[2,7,6,2]]`
+
+**Output:**  
+`1`
+
+**Explanation:**  
+The following subgrid is a valid **3 × 3 magic square**:
+
+<img width="242" height="242" alt="magic-square" src="https://github.com/user-attachments/assets/fcba7f78-a1c4-46b5-976f-62b9cb7ca8bb" />
 
 ---
 
@@ -36,7 +42,7 @@ A **3 × 3 magic square** must satisfy all of the following conditions:
 
 ## Approach Explanation
 
-For every possible `3 × 3` subgrid:
+For every possible **3 × 3 subgrid**:
 
 1. **Validate numbers**
    - Ensure all values are between `1` and `9`
@@ -74,5 +80,15 @@ Let:
 
 Each `3 × 3` grid check takes constant time.
 
-Time Complexity: O(m × n)
+**Time Complexity:**  
+O(m × n)
+## Reference
 
+- LeetCode Problem 840: Magic Squares in Grid
+
+---
+
+### Author
+
+**Aakash Kumar**  
+B.Tech Student | Data Structures & Algorithms
